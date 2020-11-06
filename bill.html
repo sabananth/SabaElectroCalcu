@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >Electricity Bill Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+</head><br><br>
+<body>
+	<div class="container"><div class="item">
+	<h1 style="color:#4984B8"><b>Electricity Bill Calculator</b></h1>
+	<div class="container1"><div class="item1">
+
+<form  id="newform" name="newform" action="#" method="get">
+<fieldset>
+		
+		<legend align="center" style="color:#016795" ><b>Electricity Bill</b></legend>
+		<br><br>
+		<label for="unt" style="color:#95A3A6"><b>No of Units Used :</b></label>
+		<input style="border:none;border-radius:15px;background-color:#9DBCD4" type="number" id="unt" name="unt" min="1" max="180" step="1">
+		<label style="color:#95A3A6"><b>kWh</b></label>
+		<br><br>
+
+		<button style="align-content:right" class="button1" type="reset" ><b>Clear</b></button>
+		<br><br>
+		<br>
+		<button class="button2"  type="button" onclick="calculate()"><b>calculate my Bill</b></button>
+		<br><br>
+
+		<label style="color:#069AF3" for="rslt"><b>Your Bill Amount</b>
+			<div style="color:#C6FCFF"  name="rslt"id="rslt"><h2>00.00 Rs</h2></div>
+		</label>
+		<br>
+
+</fieldset>
+</form>
+	</div>
+	</div>
+
+	<a style="color:#AFA88A" align="left" href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis">More Information about Calculation</a>
+	<a style="color:#AFA88A" align="right" href="https://ceb.lk/bill-calculation-commercial/en">Goto C.E.B Website</a>
+	
+<script  src="sc.js"></script>
+
+<p  style="color:#1F3B4D" >Created by:<b>2017/ICT/74</b></p>
+
+	</div>
+	</div>
+</body>
+</html>
